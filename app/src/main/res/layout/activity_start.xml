@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/startTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="500px"
+        android:textStyle="bold"
+        android:fontFamily="@font/btr"
+        android:textColor="#C53F15"
+        android:textSize="240px"
+        android:layout_marginTop="90dp"
+        android:text="Match3!" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu"
+        android:layout_below="@id/startTextView"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:shadowColor="#FFFFFF"
+        android:textSize="120px"
+        android:shadowRadius="5"
+        android:fontFamily="@font/btr" />
+
+</RelativeLayout>
